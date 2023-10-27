@@ -28,21 +28,22 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.label1 = new System.Windows.Forms.Label();
+            this.lb1 = new System.Windows.Forms.Label();
             this.textBox1 = new System.Windows.Forms.TextBox();
-            this.label2 = new System.Windows.Forms.Label();
+            this.lb2 = new System.Windows.Forms.Label();
             this.textBox2 = new System.Windows.Forms.TextBox();
-            this.button1 = new System.Windows.Forms.Button();
+            this.bt1 = new System.Windows.Forms.Button();
+            this.textBox3 = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
-            // label1
+            // lb1
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(60, 68);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(32, 13);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "SoA\"";
+            this.lb1.AutoSize = true;
+            this.lb1.Location = new System.Drawing.Point(60, 68);
+            this.lb1.Name = "lb1";
+            this.lb1.Size = new System.Drawing.Size(32, 13);
+            this.lb1.TabIndex = 0;
+            this.lb1.Text = "SoA\"";
             // 
             // textBox1
             // 
@@ -51,14 +52,14 @@
             this.textBox1.Size = new System.Drawing.Size(100, 20);
             this.textBox1.TabIndex = 1;
             // 
-            // label2
+            // lb2
             // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(60, 100);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(27, 13);
-            this.label2.TabIndex = 0;
-            this.label2.Text = "SoB";
+            this.lb2.AutoSize = true;
+            this.lb2.Location = new System.Drawing.Point(60, 100);
+            this.lb2.Name = "lb2";
+            this.lb2.Size = new System.Drawing.Size(27, 13);
+            this.lb2.TabIndex = 0;
+            this.lb2.Text = "SoB";
             // 
             // textBox2
             // 
@@ -67,25 +68,33 @@
             this.textBox2.Size = new System.Drawing.Size(100, 20);
             this.textBox2.TabIndex = 1;
             // 
-            // button1
+            // bt1
             // 
-            this.button1.Location = new System.Drawing.Point(115, 145);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 2;
-            this.button1.Text = "Tinh";
-            this.button1.UseVisualStyleBackColor = true;
+            this.bt1.Location = new System.Drawing.Point(45, 145);
+            this.bt1.Name = "bt1";
+            this.bt1.Size = new System.Drawing.Size(75, 23);
+            this.bt1.TabIndex = 2;
+            this.bt1.Text = "Tinh";
+            this.bt1.UseVisualStyleBackColor = true;
+            // 
+            // textBox3
+            // 
+            this.textBox3.Location = new System.Drawing.Point(136, 148);
+            this.textBox3.Name = "textBox3";
+            this.textBox3.Size = new System.Drawing.Size(100, 20);
+            this.textBox3.TabIndex = 3;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(284, 261);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.textBox3);
+            this.Controls.Add(this.bt1);
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.lb2);
+            this.Controls.Add(this.lb1);
             this.Name = "Form1";
             this.Text = "Form1";
             this.ResumeLayout(false);
@@ -95,11 +104,12 @@
 
         #endregion
 
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label lb1;
         private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label lb2;
         private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button bt1;
+        private System.Windows.Forms.TextBox textBox3;
     }
 }
 
