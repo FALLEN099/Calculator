@@ -36,7 +36,8 @@ namespace Calculator1
 
         private void button1_Click(object sender, EventArgs e)
         {
-            if (textBox1.Text != String.Empty)
+
+            if (text1.Text != String.Empty)
             {
                 double a = double.Parse(textBox1.Text);
                 double b = double.Parse(textBox2.Text);
