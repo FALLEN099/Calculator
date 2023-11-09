@@ -36,7 +36,12 @@ namespace Calculator1
 
         private void button1_Click(object sender, EventArgs e)
         {
+
             if (txtA.Text != String.Empty && txtB.Text != String.Empty)
+
+
+            if (text1.Text != String.Empty)
+
             {
                 double a = double.Parse(txtA.Text);
                 double b = double.Parse(txtB.Text);
