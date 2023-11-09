@@ -75,10 +75,10 @@
             // 
             // bt1
             // 
-            this.bt1.Location = new System.Drawing.Point(60, 178);
+            this.bt1.Location = new System.Drawing.Point(60, 159);
             this.bt1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.bt1.Name = "bt1";
-            this.bt1.Size = new System.Drawing.Size(100, 28);
+            this.bt1.Size = new System.Drawing.Size(110, 47);
             this.bt1.TabIndex = 2;
             this.bt1.Text = "Tinh";
             this.bt1.UseVisualStyleBackColor = true;
@@ -97,7 +97,7 @@
             // 
             this.button1.Location = new System.Drawing.Point(70, 231);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.Size = new System.Drawing.Size(100, 57);
             this.button1.TabIndex = 4;
             this.button1.Text = "Tru";
             this.button1.UseVisualStyleBackColor = true;
