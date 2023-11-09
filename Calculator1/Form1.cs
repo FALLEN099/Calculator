@@ -36,12 +36,12 @@ namespace Calculator1
 
         private void button1_Click(object sender, EventArgs e)
         {
-            if (textBox1.Text != String.Empty)
+            if (txtA.Text != String.Empty && txtB.Text != String.Empty)
             {
-                double a = double.Parse(textBox1.Text);
-                double b = double.Parse(textBox2.Text);
-                double c = a - b;
-                textBox3.Text = c.ToString();
+                double a = double.Parse(txtA.Text);
+                double b = double.Parse(txtB.Text);
+                double c = a + b;
+                txtKetQua.Text = c.ToString();
             }
         }
     }
